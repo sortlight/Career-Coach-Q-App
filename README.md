@@ -119,8 +119,8 @@ Training Recommendations + Skill Gap Analysis+Training Schedule
 
 * Verified every card by generating live outputs.
 
-/Screenshots/q_business.png
-/Screenshots/app_skillyzer.png
+![Amazon Q Business home page](/Screenshots/q_business.png)
+![Skillyzer App](/Screenshots/app_skillyzer.png)
 
 
 **Step 2. Enhanced the App with Advanced Components** 
@@ -140,7 +140,7 @@ Training Recommendations + Skill Gap Analysis+Training Schedule
 
 * Synced it successfully as a data source.
 
-/Screenshots/static-pdf-upload.png
+![static pdf upload](/Screenshots/static-pdf-upload.png)
 
 **S3 Data Source**
 
@@ -154,11 +154,11 @@ Training Recommendations + Skill Gap Analysis+Training Schedule
 
 * Configured daily automatic sync.
 
-/Screenshots/bucket_created.png
+![S3 Bucket Created](/Screenshots/bucket_created.png)
 
-/Screenshots/s3-objects-uploaded.png
+![Catalogs uploaded](/Screenshots/s3-objects-uploaded.png)
 
-/Screenshots/S3_added_as_data_Source.png 
+![S3 Bucket added as data source](/Screenshots/S3_added_as_data_Source.png) 
 
 
 
@@ -233,12 +233,10 @@ Used the provided ACL JSON:
 * Confirmed that restricted content is visible only to approved users.
 
 
-Screenshot Placeholders:
+![ACL json file uploaded](/Screenshots/acl_json_upload.png) 
 
-/Screenshots/acl_json_upload.png 
-
-/Screenshots/ACL_Sync.png
-/Screenshots/Catalog_access_confirmation.png
+![ACL Synched](/Screenshots/ACL_Sync.png)
+![Catalog confirmed](/Screenshots/Catalog_access_confirmation.png)
 
 
 
@@ -248,48 +246,49 @@ Screenshot Placeholders:
 
 * Verified that content containing these terms was blocked.
 
-Screenshot Placeholder:
-/Screenshots/blocked_words.png
+![Blocked words](/Screenshots/blocked_words.png)
+
 
 ##   8. Screenshots and Evidence
 
-/Screenshots/app_skillyzer.png 
+![Career Coach App](/Screenshots/app_skillyzer.png) 
 App interface
 
-/Screenshots/static-pdf-upload.png
+![PDF sync](/Screenshots/static-pdf-upload.png)
 PDF sync
 
-/Screenshots/s3-bucket-created.png
+![S3 bucket](/Screenshots/s3-bucket-created.png)
 S3 bucket
 
-/Screenshots/s3-bucket-synched.png
+![S3 sync](/Screenshots/s3-bucket-synched.png)
 S3 sync
 
-/Screenshots/Daily_Sync.png
+![S3 daily schedule](/Screenshots/Daily_Sync.png)
 S3 daily schedule
 
-/Screenshots/skill_gap.png
+![Skill Gap Prompt](/Screenshots/skill_gap.png)
 Skill Gap Prompt
 
-/Screenshots/ACL_Sync.png
+![ACL applied](/Screenshots/ACL_Sync.png)
 ACL applied
 
-/Screenshots/Daily_Sync.png
+![Daily Sync](/Screenshots/Daily_Sync.png)
 Daily Sync
 
-/Screenshots/last-sync-time.png
+![Last Sync Time](/Screenshots/last-sync-time.png)
 Last Sync Time 
 
-/Screenshots/Catalog_access_confirmation.png
+![ACL test](/Screenshots/Catalog_access_confirmation.png)
 Access allowed and denied tests
 
-/Screenshots/blocked_words.png
+![Blocked Words](/Screenshots/blocked_words.png)
 Blocked Words
 
-/Screenshots/hared_app.png
+![Shared App](/Screenshots/hared_app.png)
 Shared App
 
-/Screenshots/Verified_App.png 
+![Verified Q App status](/Screenshots/Verified_App.png) 
+![Verified Q App status](/Screenshots/Verified_App_2.png) 
 Verified Q App status
 
 
