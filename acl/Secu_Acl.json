@@ -1,0 +1,47 @@
+[
+    {
+        "keyPrefix": "s3://course-catalog-career-coach-v1/Data/Restricted/Medicine/",
+        "aclEntries": [
+            {
+                "Name": "career.coach.one",
+                "Type": "USER",
+                "Access": "ALLOW"
+            },
+            {
+                "Name": "career.coach.two",
+                "Type": "USER",
+                "Access": "DENY"
+            }
+        ]
+    },
+    {
+        "keyPrefix": "s3://course-catalog-career-coach-v1/Data/Additional-Course-Catalog-A.pdf",
+        "aclEntries": [
+            {
+                "Name": "career.coach.one",
+                "Type": "USER",
+                "Access": "ALLOW"
+            },
+            {
+                "Name": "career.coach.two",
+                "Type": "USER",
+                "Access": "ALLOW"
+            }
+        ]
+    },
+    {
+        "keyPrefix": "s3://course-catalog-career-coach-v1/Data/Additional-Course-Catalog-B.pdf",
+        "aclEntries": [
+            {
+                "Name": "career.coach.one",
+                "Type": "USER",
+                "Access": "ALLOW"
+            },
+            {
+                "Name": "career.coach.two",
+                "Type": "USER",
+                "Access": "ALLOW"
+            }
+        ]
+    }
+]
