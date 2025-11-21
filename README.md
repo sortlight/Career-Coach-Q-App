@@ -284,7 +284,7 @@ Access allowed and denied tests
 ![Blocked Words](/Screenshots/blocked_words.png)
 Blocked Words
 
-![Shared App](/Screenshots/hared_app.png)
+![Shared App](/Screenshots/shared_app.png)
 Shared App
 
 ![Verified Q App status](/Screenshots/Verified_App.png) 
