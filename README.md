@@ -173,7 +173,17 @@ Used the provided ACL JSON:
 
 [
     {
-        "keyPrefix": "s3://course-catalog-career-coach-v1/Data/Restricted/Medicine/",
+        "keyPrefix": "s3://course-catalog-career-coach-v1/Data/Security/",
+        "aclEntries": [
+            {
+                "Name": "CareerCoaches",
+                "Type": "GROUP",
+                "Access": "ALLOW"
+            }
+        ]
+    },
+    {
+        "keyPrefix": "s3://course-catalog-career-coach-v1/Data/restricted/Medicine/",
         "aclEntries": [
             {
                 "Name": "career.coach.one",
@@ -181,39 +191,9 @@ Used the provided ACL JSON:
                 "Access": "ALLOW"
             },
             {
-                "Name": "career.coach.two",
+                "Name": " career.coache.two ",
                 "Type": "USER",
                 "Access": "DENY"
-            }
-        ]
-    },
-    {
-        "keyPrefix": "s3://course-catalog-career-coach-v1/Data/Additional-Course-Catalog-A.pdf",
-        "aclEntries": [
-            {
-                "Name": "career.coach.one",
-                "Type": "USER",
-                "Access": "ALLOW"
-            },
-            {
-                "Name": "career.coach.two",
-                "Type": "USER",
-                "Access": "ALLOW"
-            }
-        ]
-    },
-    {
-        "keyPrefix": "s3://course-catalog-career-coach-v1/Data/Additional-Course-Catalog-B.pdf",
-        "aclEntries": [
-            {
-                "Name": "career.coach.one",
-                "Type": "USER",
-                "Access": "ALLOW"
-            },
-            {
-                "Name": "career.coach.two",
-                "Type": "USER",
-                "Access": "ALLOW"
             }
         ]
     }
@@ -275,11 +255,14 @@ ACL applied
 ![Daily Sync](/Screenshots/Daily_Sync.png)
 Daily Sync
 
-![Last Sync Time](/Screenshots/last-sync-time.png)
+![Last Sync Time](/Screenshots/screenshots/last-sync-time.png)
 Last Sync Time 
 
 ![ACL test](/Screenshots/Catalog_access_confirmation.png)
-Access allowed and denied tests
+Access allowed 
+
+![Access Denied Test](/Screenshots/screenshots/Coach2Deny.png)
+Denied tests
 
 ![Blocked Words](/Screenshots/blocked_words.png)
 Blocked Words
@@ -291,7 +274,7 @@ Shared App
 ![Verified Q App status](/Screenshots/Verified_App_2.png) 
 Verified Q App status
 
-
+![Functionality Test](/Screenshots/screenshots/functionality_skillyzer.png)
 
 ##   9. How to Use the App 
 
