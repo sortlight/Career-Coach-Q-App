@@ -217,7 +217,7 @@ Used the provided ACL JSON:
 
 ![ACL Synched](/Screenshots/ACL_Sync.png)
 ![Catalog confirmed](/Screenshots/Catalog_access_confirmation.png)
-
+![Access Denied Test](/Screenshots/screenshots/Coach2Deny.png)
 
 
 ##   7. Global Moderation
@@ -276,6 +276,8 @@ Verified Q App status
 
 ![Functionality Test](/Screenshots/screenshots/functionality_skillyzer.png)
 
+
+
 ##   9. How to Use the App 
 
 click[Skillyzer](https://0mgpa0py.chat.qbusiness.us-west-2.on.aws/#/app/cac7ff71-d18e-4aa2-bd46-1197d5edd733) to test run app
@@ -290,6 +292,7 @@ click[Skillyzer](https://0mgpa0py.chat.qbusiness.us-west-2.on.aws/#/app/cac7ff71
 
 5.  Use personalized coaching input to specify context or user preferences.
 
+![Functionality Test](/Screenshots/screenshots/functionality_skillyzer.png)
 
 
 ##   10. Verification Status
